@@ -1,18 +1,23 @@
-/* Reset some default styles */
+
 body, h1, h2, p, ul, li, table {
     margin: 0;
     padding: 0;
 }
-
-/* Basic styling */
+html {
+    height: 100%;
+}
 body {
+    margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #fcfdd2;
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #000000;
+    color: rgb(254, 255, 204);
     padding: 10px 0;
 }
 
@@ -44,7 +49,7 @@ section {
 }
 
 h1, h2 {
-    color: #333;
+    color: #000000;
 }
 
 table {
@@ -55,10 +60,15 @@ table {
 table, th, td {
     border: 1px solid #ccc;
 }
+img{
+    display: block;
+    margin: 0 auto;
+}
 
 footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    background-color: #000000;
+    color: rgb(254, 255, 204);
+    text-align: left;
+    padding: 20px 0;
+    
 }
