@@ -2,6 +2,7 @@
 body, h1, h2, p, ul, li, table {
     margin: 0;
     padding: 0;
+
 }
 html {
     height: 100%;
@@ -13,6 +14,10 @@ body {
     min-height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 header {
@@ -42,6 +47,7 @@ main {
     background-color: white;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
 }
 
 section {
@@ -71,4 +77,8 @@ footer {
     text-align: left;
     padding: 20px 0;
     
+}
+div{
+    display: block;
+    padding: 10px;
 }
